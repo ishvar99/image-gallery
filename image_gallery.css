@@ -1,0 +1,44 @@
+body{
+	padding-top: 70px;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+
+.jumbotron{
+	color: #2c3e50;
+}
+.navbar-dark{
+background: #2c3e50;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+}
+.item{
+	background-color: blue;
+	
+}
+.item * {
+	transition: all 0.35s ease-in-out 300ms;
+}
+.item img:hover{
+	opacity: 0.6;
+	filter: grayscale(100%);
+}
+.item:hover .item1{
+	transform: translate(-50%,-50%) scale(1);
+}
+.item1{
+	padding: 15px;
+	transform: translate(-50%,-50%) scale(0);
+  position:absolute;
+  top:50%;
+  left:50%;
+  font-size: 40px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: white;
+  color: blue;
+  border-radius: 50%;
+}
